@@ -1,8 +1,8 @@
 class Hellorandroid < Formula
   desc "Randroid's Python Hello World script"
   homepage "https://github.com/randroid88/homebrew-hellorandroid"
-  url "https://github.com/randroid88/homebrew-hellorandroid/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "4cf6eb91735d97e9fced9319e487ea60e0b7d36f87419a4346cbff1a96d42547"
+  url "https://github.com/randroid88/homebrew-hellorandroid/archive/refs/tags/v1.0.1.tar.gz"
+  sha256 "91ce157ca4cec27591dbc0ba6ec1dc5069eaa5f520fd6e3f7f32d3d171a4b20b"
 
   def install
     bin.install "hello_randroid.py" => "hellorandroid"
