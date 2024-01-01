@@ -5,7 +5,7 @@ class Hellorandroid < Formula
   sha256 "4cf6eb91735d97e9fced9319e487ea60e0b7d36f87419a4346cbff1a96d42547"
 
   def install
-    bin.install "hellorandroid"
+    bin.install "hello_randroid.py" => "hellorandroid"
   end
 
   test do
