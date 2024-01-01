@@ -6,6 +6,7 @@ class Hellorandroid < Formula
 
   def install
     bin.install "hello_randroid.py" => "hellorandroid"
+    chmod 0555, bin/"hellorandroid"
   end
 
   test do
